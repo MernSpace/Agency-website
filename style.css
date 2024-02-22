@@ -229,3 +229,46 @@ nav ul li a{
     font-size: 16px;
     line-height: 24px;
 }
+
+/*blog section*/
+
+.blog{
+    padding: 50px 100px;
+}
+
+
+
+.blog-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.blog-left{
+    padding-right: 20px;
+
+}
+.blog-left img{
+    width: 100%;
+}
+
+.blog-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.blog-right img{
+    width: 100%;
+}
+
+
+.blog-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.blog-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
