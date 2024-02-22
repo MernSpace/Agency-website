@@ -273,7 +273,35 @@ nav ul li a{
     font-size: 14px;
     line-height: 26px;
 }
+/*project section*/
 
+
+.project-section{
+    padding: 50px 100px;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.project-content{
+    box-shadow: 5px 5px 8px 10px rgba(136, 136, 136, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.project-container img{
+    width: 100%;
+}
+
+.project-title{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+}
 
 /*contact section */
 
